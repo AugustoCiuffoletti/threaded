@@ -1,4 +1,3 @@
-#!/usr/bin/python 
 import socket, thread
 def servizio(client):                                 #-- Funzione che incapsula il servizio
     data = client.recv(buflen)                        # Attende il dato dal client
